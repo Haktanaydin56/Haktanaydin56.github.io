@@ -1,0 +1,35 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #8cff82 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #82b1ff !important;
+  }
+}
+
+h5 {
+  letter-spacing: 3px;
+}
